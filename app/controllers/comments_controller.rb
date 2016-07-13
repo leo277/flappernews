@@ -15,8 +15,6 @@ end
 
 private
 def comment_params
-
-end
  params.require(:comment).permit(:body)
 end
 
